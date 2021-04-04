@@ -1,4 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
+import App from "./App";
+import "./spotify.css";
+// import "bootstrap/dist/css/bootstrap.css";
 
-ReactDOM.render;
+render(<App />, document.getElementById("root"));

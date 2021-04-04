@@ -1,0 +1,40 @@
+#spotifySliderBlock {
+  height: 100vh;
+  background-color: rgb(41, 65, 171);
+}
+#spotifySliderBlock article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#spotifySliderBlock article h1 {
+  font-size: 7em;
+  color: #1ed760;
+  text-transform: capitalize;
+  font-weight: bold;
+  display: block;
+  width: 670px;
+  text-indent: -145px;
+  margin-top: 30px;
+}
+p {
+  color: #1ed760;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+button {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  border: none;
+  background-color: #1ed760;
+  color: #fff;
+  border-radius: 12px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
